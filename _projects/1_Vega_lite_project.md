@@ -1,8 +1,8 @@
 ---
-name: Vega Lite Example Project
+name: Licenses Visualizations (Homework 5)
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/cars.png
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+description: This is a project that I did using Altair to create visualizations using data on worker licenses in Chicago!
 custom_js:
   - vega.min
   - vega-lite.min
@@ -28,25 +28,14 @@ In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hoo
 
 ## Search The Data & Methods
 
-Below is where we can put some links to both the data and the analysis code as buttons:
-
-```
-<div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html" text="The Analysis" %}
-</div>
-```
 
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/licenses_fall2022.csv" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/ekonsur2/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
 
