@@ -19,7 +19,7 @@ Example comes from this: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/
 
 
 
-<vegachart schema-url="{{ https://vega.github.io/schema/vega-lite/v5.20.1.json }}/assets/json/cars.json" style="width: 100%"></vegachart> 
+<vegachart schema-url="{{ https://vega.github.io/schema/vega-lite/v5.20.1.json }}" style="width: 100%"></vegachart> 
 
 In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
 
