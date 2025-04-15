@@ -26,7 +26,7 @@ Plot 2
 With this bar plot, I am looking at the number of licenses per status per license type. I used the color scheme category10 for the variable "License Status" because there are many bars, so I wanted to make sure there were a variety of colors in the scheme. As a result, the bars are easy to distinguish between each other, especially nearby bars. Like the other plot, I used the plot mark_bar because "License Status" is a categorical variable. First I made a dataframe with only the columns License Type and License Status. Then I created a new column "count" to see the number number of licenses per type and status. Then, I grouped df_bar by License Type to use for options for the dropdown. I made a dropdown with the variable "License Type" so the user can look at number of licenses per status with their choice for license type. Including bars for all combinations of license status and license type would be very overwhelming compared to showing bars for just one license type at a time, like I am in this bar plot.
 
 <vegachart schema-url="https://raw.githubusercontent.com/ekonsur2/ekonsur2.github.io/refs/heads/main/plot_2.json" style="width: 100%"></vegachart> 
-Hi! Did you upload your json file to the GitHub repository where you store the whole HW5 project? For example, if you save your plot2 in blob/main folder, try changing the URL into ""
+
 
 
 ## Search The Data & Methods
